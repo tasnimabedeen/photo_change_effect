@@ -1,0 +1,214 @@
+body {
+    padding: 0px;
+    border: 0;
+    margin: 0;
+    background-color: rgb(99, 99, 48);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hid1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(99, 99, 48);
+    z-index: 50;
+}
+
+.hid2 {
+    position: absolute;
+    top: 0px;
+    left: 90vw;
+    height: 100vh;
+    width: 10vw;
+    background-color: rgb(99, 99, 48);
+    z-index: 50;
+}
+
+.hid3 {
+    position: absolute;
+    top: 90vh;
+    left: 0px;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(99, 99, 48);
+    z-index: 50;
+}
+
+.hid4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 10vw;
+    background-color: rgb(99, 99, 48);
+    z-index: 50;
+}
+
+.container1 {
+    display: block;
+}
+
+.container2 {
+    display: none;
+}
+
+.container3 {
+
+    display: none;
+}
+
+.container1,
+.container2,
+.container3 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+.div2 {
+    background-image: url(2.jpg);
+
+    animation-name: divani2;
+
+}
+
+@keyframes divani2 {
+    0% {
+        transform: rotate(-32deg);
+
+    }
+
+    100% {
+        transform: rotate(0deg);
+        position: absolute;
+        top: -10vh;
+        left: -10vw;
+        height: 120vh;
+        width: 120vw;
+        background-size: cover;
+    }
+}
+
+.div3 {
+    background-image: url(3.jpg);
+
+    animation-name: divani3;
+
+}
+
+@keyframes divani3 {
+    0% {
+        transform: rotate(-32deg);
+
+    }
+
+    100% {
+        transform: rotate(0deg);
+        position: absolute;
+        top: -10vh;
+        left: -10vw;
+        height: 120vh;
+        width: 120vw;
+        background-size: cover;
+    }
+}
+
+.div1 {
+    background-image: url(1.jpg);
+
+    animation-name: divani1;
+
+}
+
+@keyframes divani1 {
+    0% {
+        transform: rotate(-32deg);
+
+    }
+
+    100% {
+        transform: rotate(0deg);
+        position: absolute;
+        top: -10vh;
+        left: -10vw;
+        height: 120vh;
+        width: 120vw;
+        background-size: cover;
+    }
+}
+
+.div1,
+.div2,
+.div3 {
+    position: absolute;
+    top: -50vh;
+    left: -50vw;
+    height: 200vh;
+    width: 200vw;
+    background-size: cover;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+.in11 {
+
+    background-image: url(1.jpg);
+    animation-name: inani11;
+}
+
+@keyframes inani11 {
+    0% {
+        transform: rotate(-32deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.in11 {
+    position: absolute;
+    top: 5vh;
+    left: calc(50vw - 45vh);
+    height: 90vh;
+    width: 90vh;
+    border-radius: 50%;
+    background-image: url(1.jpg);
+    background-position: calc(45vh - 60vw) -15vh;
+    background-size: 120vw auto;
+    animation-name: inani11;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+@keyframes inani11 {
+    0% {
+        transform: rotate(-32deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
