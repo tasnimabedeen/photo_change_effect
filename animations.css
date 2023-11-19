@@ -1,0 +1,125 @@
+@keyframes conani {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes conani2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes divani1 {
+    0% {
+        transform: rotate(-32deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        position: absolute;
+        top: -10vh;
+        left: -10vw;
+        height: 120vh;
+        width: 120vw;
+        background-size: cover;
+        opacity: 1;
+    }
+}
+
+@keyframes divani2 {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+        position: absolute;
+        top: -10vh;
+        left: -10vw;
+        height: 120vh;
+        width: 120vw;
+        background-size: cover;
+    }
+
+    100% {
+        transform: rotate(32deg);
+        position: absolute;
+        top: -50vh;
+        left: -50vw;
+        height: 200vh;
+        width: 200vw;
+        background-size: cover;
+        opacity: 0;
+    }
+}
+
+@keyframes inani11 {
+    0% {
+        transform: rotate(-32deg);
+        opacity: 0;
+    }
+
+    50% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes inani12 {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    50% {
+        transform: rotate(32deg);
+    }
+
+    100% {
+        transform: rotate(32deg);
+        opacity: 0;
+    }
+}
+
+@keyframes inani111 {
+    0% {
+        transform: rotate(-32deg);
+        opacity: 0;
+    }
+
+    25% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes inani211 {
+    0% {
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+
+    25% {
+        transform: rotate(32deg);
+    }
+
+    100% {
+        transform: rotate(32deg);
+        opacity: 0;
+    }
+}
