@@ -8,45 +8,6 @@ body {
     overflow: hidden;
 }
 
-.hid1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 10vh;
-    width: 100vw;
-    background-color: rgb(99, 99, 48);
-    z-index: 50;
-}
-
-.hid2 {
-    position: absolute;
-    top: 0px;
-    left: 90vw;
-    height: 100vh;
-    width: 10vw;
-    background-color: rgb(99, 99, 48);
-    z-index: 50;
-}
-
-.hid3 {
-    position: absolute;
-    top: 90vh;
-    left: 0px;
-    height: 10vh;
-    width: 100vw;
-    background-color: rgb(99, 99, 48);
-    z-index: 50;
-}
-
-.hid4 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100vh;
-    width: 10vw;
-    background-color: rgb(99, 99, 48);
-    z-index: 50;
-}
 
 
 .container1,
@@ -109,31 +70,31 @@ body {
 .in21,
 .in31 {
     position: relative;
-    top: 0vh;
-    left: 0vw;
-    height: 90vh;
-    width: 90vh;
+    top: -5vh;
+    left: calc(55vh - 50vw - 10vw);
+    height: 120vh;
+    width: 120vw;
     border-radius: 50%;
-    background-position: calc(45vh - 60vw) -15vh;
-    background-size: 120vw auto;
+    background-position: 0px 0px;
+    background-size: cover;
 }
 
 .back {
     position: absolute;
-    top: 5vh;
-    left: calc(50vw - 45vh);
-    height: 90vh;
-    width: 90vh;
+    top: -5vh;
+    left: calc(50vw - 55vh);
+    height: 110vh;
+    width: 110vh;
     border-radius: 50%;
     overflow: hidden;
 }
 
 .shadow {
     position: absolute;
-    top: 5vh;
-    left: calc(50vw - 45vh);
-    height: 90vh;
-    width: 90vh;
+    top: -5vh;
+    left: calc(50vw - 55vh);
+    height: 110vh;
+    width: 110vh;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.356);
 }
@@ -183,4 +144,23 @@ body {
     background-color: rgba(0, 0, 0, 0.774);
     padding: 6px;
     cursor: pointer;
+}
+
+.text {
+    position: absolute;
+    top: calc(50vh - 50px);
+    left:0;
+    z-index: 150;
+    height: 100px;
+    width: 100vw;
+    overflow: hidden;
+}
+
+div.text {
+    position: relative;
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    font-size: 100px;
+    overflow: hidden;
 }
