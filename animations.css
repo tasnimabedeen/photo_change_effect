@@ -10,11 +10,7 @@
 
 @keyframes conani2 {
     0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 1;
+        opacity: 0;
     }
     100%{
         opacity: 1;
@@ -23,7 +19,7 @@
 
 @keyframes divani1 {
     0% {
-        transform: rotate(-180deg);
+        transform: rotate(-270deg);
         position: absolute;
         top: -225vh;
         left: -225vw;
@@ -31,16 +27,16 @@
         width: 550vw;
         opacity: 0;
     }
-    75%{
+    50%{
         opacity: 1;
     }
     100% {
         transform: rotate(0deg);
         position: absolute;
-        top: -10vh;
-        left: -10vw;
-        height: 120vh;
-        width: 120vw;
+        top: -50vh;
+        left: -50vw;
+        height: 200vh;
+        width: 200vw;
         background-size: cover;
         opacity: 1;
     }
@@ -51,22 +47,20 @@
         transform: rotate(0deg);
         opacity: 1;
         position: absolute;
-        top: -10vh;
-        left: -10vw;
-        height: 120vh;
-        width: 120vw;
+        top: -50vh;
+        left: -50vw;
+        height: 200vh;
+        width: 200vw;
         background-size: cover;
     }
-    75%{
-        opacity: 0;
-    }
+
     100% {
-        transform: rotate(180deg);
+        transform: rotate(270deg);
         position: absolute;
-        top: -10vh;
-        left: -10vw;
-        height: 120vh;
-        width: 120vw;
+        top: -50vh;
+        left: -50vw;
+        height: 200vh;
+        width: 200vw;
         background-size: cover;
         opacity: 0;
     }
@@ -74,7 +68,7 @@
 
 @keyframes inani11 {
     0% {
-        transform: rotate(-180deg);
+        transform: rotate(-270deg);
         position: relative;
         top: -220vh;
         left: calc(55vh - 50vw - 10vw - 215vw);
@@ -88,13 +82,13 @@
     33%{
         opacity: 1;
     }
-    66% {
+    75% {
         transform: rotate(0deg);
         position: relative;
-        top: -5vh;
-        left: calc(55vh - 50vw - 10vw);
-        height: 120vh;
-        width: 120vw;
+        top: -25vh;
+        left: calc(75vh - 50vw - 50vw);
+        height: 200vh;
+        width: 200vw;
         border-radius: 50%;
         background-position: 0px 0px;
         background-size: cover;
@@ -113,22 +107,22 @@
     }
 
     50% {
-        transform: rotate(180deg);
+        transform: rotate(270deg);
     }
 
     100% {
-        transform: rotate(180deg);
+        transform: rotate(270deg);
         opacity: 0;
     }
 }
 
 @keyframes inani111 {
     0% {
-        transform: rotate(-180deg);
+        transform: rotate(-270deg);
         opacity: 0;
     }
 
-    32.5% {
+    66% {
         transform: rotate(0deg);
         opacity: 1;
     }
@@ -145,11 +139,41 @@
     }
 
     25% {
-        transform: rotate(180deg);
+        transform: rotate(270deg);
         opacity: 0;
     }
 
     100% {
-        transform: rotate(180deg);
+        transform: rotate(270deg);
+    }
+}
+
+@keyframes textout {
+    0%{
+        top: 0px;
+    }
+    30%{
+        top: 0px;
+    }
+    50%{
+        top: -100px;
+    }
+    100%{
+        top: -100px;
+    }
+}
+
+@keyframes textin {
+    0%{
+        top: 100px;
+    }
+    50%{
+        top: 100px;
+    }
+    70%{
+        top: 0px;
+    }
+    100%{
+        top: 0px;
     }
 }
